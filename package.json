@@ -1,7 +1,6 @@
 {
   "name": "ql-juejin",
   "version": "1.0.0",
-  "private": true,
   "description": "青龙稀土掘金助手：签到、抽奖、沾喜气、消除Bug、海底掘金游戏、自动化工作流。",
   "author": "Leo_chen",
   "scripts": {
@@ -11,5 +10,13 @@
   "dependencies": {
     "juejin-helper": "^1.6.1",
     "fast-astar": "^1.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leochen-g/ql-juejinhelper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leochen-g/ql-juejinhelper/issues"
+  },
+  "homepage": "https://github.com/leochen-g/ql-juejinhelper#readme"
 }
