@@ -9,7 +9,7 @@
   感谢原作者 iDerekLi https://github.com/iDerekLi/juejin-helper
  */
 
-const $ = new Env('掘金社区签到');
+const $ = new Env('掘金-社区签到');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const JuejinHelper = require("juejin-helper");
 const jjCookieNode = $.isNode() ? require('./juejinCookies.js') : '';

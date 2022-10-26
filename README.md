@@ -7,7 +7,7 @@
 1、在青龙面板添加订阅
 
 ```shell
-ql repo https://github.com/leochen-g/ql-juejinhelper.git "juejin_"
+ql repo https://github.com/leochen-g/ql-juejinhelper.git "juejin_|juejinCookies" "" "^juejin[^_]"
 ```
 
 2、在环境变量中添加Cookie
