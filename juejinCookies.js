@@ -4,10 +4,10 @@ let CookieJJs = []
 if (process.env.JJ_COOKIE) {
   if (process.env.JJ_COOKIE.indexOf('&') > -1) {
     CookieJJs = process.env.JJ_COOKIE.split('&');
-  } else if (process.env.JD_COOKIE.indexOf('\n') > -1) {
+  } else if (process.env.JJ_COOKIE.indexOf('\n') > -1) {
     CookieJJs = process.env.JJ_COOKIE.split('\n');
   } else {
-    CookieJJs = [process.env.JD_COOKIE];
+    CookieJJs = [process.env.JJ_COOKIE];
   }
 }
 CookieJJs = [...new Set(CookieJJs.filter(item => !!item))]
