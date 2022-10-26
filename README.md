@@ -4,11 +4,15 @@
 
 ## 开始使用
 
-在青龙面板添加订阅
+1、在青龙面板添加订阅
 
 ```shell
 ql repo https://github.com/HarrylXue/public_actions.git "juejin_"
 ```
+
+2、在环境变量中添加Cookie
+
+青龙面板，添加环境变量`JJ_COOKIE`，支持添加多个Cookie，同时添加多条`JJ_COOKIE`即可
 
 ## 问题
 
